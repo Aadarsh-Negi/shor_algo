@@ -1,0 +1,23 @@
+#define ll long long
+#define pb push_back
+#define ppb pop_back
+#define ins insert
+#define ff first
+#define lb lower_bound
+#define ub upper_bound
+#define ss second
+#define mset multiset
+#define vi vector<int>
+#define vs vector<string>
+#define vvi vector<vi>
+#define umap unordered_map
+#define all(xxx90) xxx90.begin(),xxx90.end()
+#define allr(xxx90) xxx90.rbegin(),xxx90.rend()
+template<class T> using mxpq = priority_queue<T>;
+template<class T> using mnpq = priority_queue<T, vector<T>, greater<T>>;
+ll gcd(ll a,ll b){ return __gcd(a,b);}
+ll lcm(ll a,ll b){ return ((a/__gcd(a,b))*b);}
+const ll mod = 1000000007;
+const ll inf = 1e18; 
+const ll mod2 = 998244353;
+	
